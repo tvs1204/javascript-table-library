@@ -1,1 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
+const isEmptyArray = arr => !arr.length;
+console.log("1 || 2 = "+(1 || 2));
