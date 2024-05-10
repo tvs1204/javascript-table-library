@@ -1,6 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-var arr3 = "jones".split('');
-const randomString = () => Math.random().toString(36).slice(2);
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+console.log("1 || 2 = "+(1 || 2));
+const repositoryRootPath = path.resolve(__dirname, '..');
