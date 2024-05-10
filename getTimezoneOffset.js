@@ -1,3 +1,2 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const merge = (a, b) => [...a, ...b];
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
