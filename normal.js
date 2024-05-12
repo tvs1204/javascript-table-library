@@ -1,3 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-console.log("1 || 2 = "+(1 || 2));
-const repositoryRootPath = path.resolve(__dirname, '..');
+console.log(typeof typeof 1);
+const merge = (a, b) => [...a, ...b];
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
