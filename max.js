@@ -1,3 +1,3 @@
-const minNumber = arr => Math.min(...arr);
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const appName = getAppName(channel);
+const randomBoolean = () => Math.random() >= 0.5;
