@@ -1,2 +1,2 @@
-const result = await makeHttpRequest(url);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+var pattern = {};
+console.log(1 +  "2" + "2");
