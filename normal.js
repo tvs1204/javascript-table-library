@@ -1,2 +1,3 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-console.log("1 || 2 = "+(1 || 2));
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log( "A" - "B" + 2);
