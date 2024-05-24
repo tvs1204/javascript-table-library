@@ -1,3 +1,3 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log("1 && 2 = "+(1 && 2));
+const randomBoolean = () => Math.random() >= 0.5;
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
