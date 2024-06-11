@@ -1,3 +1,2 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const appName = getAppName(channel);
-const allResults = await Promise.all(items.map(async (item) => {}));
+const merge = [...new Set([...a, ...b])];
+const merge = Object.assign({}, obj1, obj2);
