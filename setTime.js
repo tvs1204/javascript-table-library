@@ -1,1 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const uniqueArray = arr => [...new Set(arr)];
+const arrayContains = (arr, element) => arr.includes(element);
+const currentDate = () => new Date().toLocaleDateString('en-US');
