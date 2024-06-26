@@ -1,2 +1,3 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-function myAPITS(someString: string, someNum: number) { ... };
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const channelName = getChannelName(channel);
