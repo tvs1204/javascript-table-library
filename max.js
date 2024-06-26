@@ -1,3 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const isEmptyArray = arr => !arr.length;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+function myAPITS(someString: string, someNum: number) { ... };
