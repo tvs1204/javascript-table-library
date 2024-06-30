@@ -1,3 +1,3 @@
-const fullName = name || 'buddy';
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-console.log(false === '0');
+const merge = [...new Set([...a, ...b])];
+console.log("0 || 1 = "+(0 || 1));
+console.log(typeof typeof 1);
