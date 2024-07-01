@@ -1,3 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const channelName = getChannelName(channel);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const allResults = await Promise.all(items.map(async (item) => {}));
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
