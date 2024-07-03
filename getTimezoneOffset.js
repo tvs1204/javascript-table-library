@@ -1,1 +1,1 @@
-const executableName = getExecutableName(channel, appName);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
