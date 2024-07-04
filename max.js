@@ -1,3 +1,3 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const allResults = await Promise.all(items.map(async (item) => {}));
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+var arr1 = "john".split('');
+const merge = (a, b) => [...a, ...b];
