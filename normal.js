@@ -1,3 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-console.log("0 || 1 = "+(0 || 1));
-console.log(typeof typeof 1);
+console.log(+"1" +  "1" + "2");
+const repositoryRootPath = path.resolve(__dirname, '..');
+var DELIM_SIZE = 4;
