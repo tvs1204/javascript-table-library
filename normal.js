@@ -1,3 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const allResults = await Promise.all(items.map(async (item) => {}));
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const isTabInView = () => !document.hidden;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const toggleBool = () => (bool = !bool);
