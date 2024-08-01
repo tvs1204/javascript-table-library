@@ -1,3 +1,1 @@
-var arr2 = arr1.reverse();
-const minNumber = arr => Math.min(...arr);
-console.log(typeof typeof 1);
+const maxNumber = arr => Math.max(...arr);
