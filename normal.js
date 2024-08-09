@@ -1,3 +1,3 @@
-const isTabInView = () => !document.hidden;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const toggleBool = () => (bool = !bool);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
